@@ -62,7 +62,7 @@
 
     loadAPI: function () {
       var that = this
-      var apiUrl = 'https://f.vimeocdn.com/js/froogaloop2.min.js'
+      var apiUrl = 'https://cdn.jsdelivr.net/npm/vimeo-froogaloop2@0.1.1/javascript/froogaloop.min.js'
       var scriptTags = document.getElementsByTagName('script')
       var i = scriptTags.length
       var scriptTag
